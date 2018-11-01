@@ -14,7 +14,7 @@ app.get('/restaurants/:id', (req, res) => {
 })
 
 app.get('/api/:id', (req, res) => {
-  axios.get(`http://localhost:3010/api/${req.params.id}`)
+  axios.get(`http://52.14.67.191:3010/api/${req.params.id}`)
     .then(({data}) => {
       res.send(data);
     })
@@ -26,6 +26,6 @@ app.get('/api/:id', (req, res) => {
 })
 
 app.listen(port, () => {
-  console.log(`server running at: http://localhost:${port}`);
+  console.log(`server running at ${port}`);
 });
 
