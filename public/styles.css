@@ -23,6 +23,7 @@
 
 .column3 {
   flex: 90%;
+  margin: 0 calc(2rem*.5);
 }
 
 #name {
