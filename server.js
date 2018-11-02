@@ -13,8 +13,20 @@ app.get('/restaurants/:id', (req, res) => {
   res.sendFile(path.join(__dirname, './public/index.html'));
 })
 
+app.get('API/Reviews/*', (req, res) => {
+  axios.get(`http://34.207.247.29/${req.url}`)
+    .then(({data}) => {
+      res.send(data);
+    })
+    .catch((err) => {
+      if (err) {
+        console.log(err);
+      }
+    })
+})
+
 app.get('/api/:id', (req, res) => {
-  axios.get(`http://3.16.45.212/api/${req.params.id}`)
+  axios.get(`http://3.16.45.212/api/${req.url}`)
     .then(({data}) => {
       res.send(data);
     })
