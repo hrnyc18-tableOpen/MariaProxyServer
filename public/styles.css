@@ -4,6 +4,13 @@
     "Segoe UI Symbol";
 }
 
+#Reviews {
+  max-width: 608px;
+  margin: auto;
+  position: relative;
+  margin-top: 32px;
+}
+
 .row {
   display: flex;
   font-size: 14px;
