@@ -25,17 +25,17 @@ app.get('/api/:id', (req, res) => {
     })
 })
 
-app.get('API/Reviews/*', (req, res) => {
-  axios.get(`http://34.207.247.29/${req.url}`)
-    .then(({data}) => {
-      res.send(data);
-    })
-    .catch((err) => {
-      if (err) {
-        console.log(err);
-      }
-    })
-})
+// app.get('API/Reviews/*', (req, res) => {
+//   axios.get(`http://34.207.247.29/${req.url}`)
+//     .then(({data}) => {
+//       res.send(data);
+//     })
+//     .catch((err) => {
+//       if (err) {
+//         console.log(err);
+//       }
+//     })
+// })
 
 app.listen(port, () => {
   console.log(`server running at ${port}`);
