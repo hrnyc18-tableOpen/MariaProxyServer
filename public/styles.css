@@ -4,13 +4,6 @@
     "Segoe UI Symbol";
 }
 
-#Reviews {
-  max-width: 608px;
-  margin: auto;
-  position: relative;
-  margin-top: 32px;
-}
-
 .row {
   display: flex;
   font-size: 14px;
@@ -30,7 +23,7 @@
 
 .column3 {
   flex: 90%;
-  margin: 0 calc(2rem*.5);
+  margin: 0 calc(2rem * 0.5);
 }
 
 #name {
@@ -314,4 +307,163 @@
 
 #map {
   margin-bottom: 16px;
+}
+
+#table {
+  display: block;
+  height: 375px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  position: relative;
+  width: 608px;
+  -webkit-font-smoothing: antialiased;
+}
+
+#details {
+  display: block;
+  font-family: BrandonText, -apple-system, system-ui, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  height: 48px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  text-align: center;
+  text-size-adjust: 100%;
+  width: 608px;
+  -webkit-font-smoothing: antialiased;
+}
+
+#detailsBtn {
+  align-items: flex-start;
+  background-color: rgb(255, 255, 255);
+  border-bottom-color: rgb(216, 217, 219);
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-image-outset: 0px;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-color: rgb(216, 217, 219);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-color: rgb(216, 217, 219);
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-top-color: rgb(216, 217, 219);
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  box-sizing: border-box;
+  color: rgb(45, 51, 63);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-stretch: 100%;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-weight: 500;
+  height: 48px;
+  letter-spacing: normal;
+  line-height: 24px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  overflow-x: visible;
+  overflow-y: visible;
+  padding-bottom: 11px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 11px;
+  text-align: center;
+  text-decoration-color: rgb(45, 51, 63);
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-indent: 0px;
+  text-rendering: auto;
+  text-shadow: none;
+  text-transform: none;
+  width: 288px;
+  word-spacing: 0px;
+  writing-mode: horizontal-tb;
+  -webkit-appearance: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+#detailsBtn:hover {
+  border: 1.5px solid #da3743;
+  margin: 0;
+  padding: 0.65em 0.6em 1.4em 0.6em;
+}
+
+#detailsBtnWords {
+  color: rgb(45, 51, 63);
+  cursor: pointer;
+  display: inline;
+  font-size: 16px;
+  font-stretch: 100%;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-weight: 500;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: center;
+  text-indent: 0px;
+  text-rendering: auto;
+  text-shadow: none;
+  text-transform: none;
+  word-spacing: 0px;
+  writing-mode: horizontal-tb;
+  -webkit-font-smoothing: antialiased;
+}
+
+#transparentDetails {
+  background-color: rgba(255, 255, 255, 0.2);
+  background-image: linear-gradient(
+    0deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0)
+  );
+  bottom: 0px;
+  content: " ";
+  display: block;
+  height: 200px;
+  left: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  position: absolute;
+  text-align: center;
+  width: 608px;
+  z-index: 10;
+  -webkit-font-smoothing: antialiased;
 }

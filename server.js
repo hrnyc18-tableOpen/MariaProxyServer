@@ -26,7 +26,7 @@ app.get('/API/Reviews/*', (req, res) => {
 })
 
 app.get('/api/:id', (req, res) => {
-  axios.get(`http://3.16.45.212/api/${req.params.id}`)
+  axios.get(`http://3.16.45.212/${req.url}`)
     .then(({data}) => {
       res.send(data);
     })
